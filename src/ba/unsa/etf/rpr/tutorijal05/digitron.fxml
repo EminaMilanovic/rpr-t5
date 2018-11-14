@@ -44,11 +44,11 @@
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button onAction="#fjaplus" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="72.0" prefWidth="45.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="2" GridPane.rowSpan="2">
+      <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#fjaplus" prefHeight="72.0" prefWidth="45.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="2" GridPane.rowSpan="2">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button onAction="#fjaeq" id="digitronBtn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="68.0" prefWidth="45.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.rowSpan="2">
+      <Button id="digitronBtn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#fjaeq" prefHeight="68.0" prefWidth="45.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.rowSpan="2">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -56,7 +56,7 @@
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button onAction="#fja2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="25.0" prefWidth="39.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#fja2" prefHeight="25.0" prefWidth="39.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -85,7 +85,7 @@
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button fx:id="btn0" onAction="#fja0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="25.0" prefWidth="143.0" text="0" GridPane.columnSpan="2" GridPane.rowIndex="5">
+      <Button fx:id="btn0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#fja0" prefHeight="25.0" prefWidth="143.0" text="0" GridPane.columnSpan="2" GridPane.rowIndex="5">
          <font>
             <Font size="18.0" />
          </font></Button>
@@ -93,7 +93,7 @@
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Label  fx:id="display" contentDisplay="RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="319.0" GridPane.columnSpan="2147483647">
+      <Label fx:id="display" alignment="CENTER_RIGHT" contentDisplay="RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="319.0" text="0" GridPane.columnSpan="2147483647">
          <font>
             <Font size="18.0" />
          </font></Label>
