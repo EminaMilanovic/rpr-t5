@@ -8,12 +8,15 @@ import javafx.scene.control.Label;
 
 public class Controller {
     float x;
+    int e;
 
     @FXML
     private Label display;
 
     private SimpleStringProperty ekran;
         public void fja1(ActionEvent actionEvent) {
+            if(display.getText().equals("0")) display.setText("1");
+            else
         display.setText(display.getText()+"1");
     }
 
@@ -30,4 +33,9 @@ public class Controller {
         x+=Float.parseFloat(display.getText());
         display.setText(Float.toString(x));
     }
+
+    public void fja0(ActionEvent actionEvent) {
+        if(display.getText().equals("0")) e=1; else{
+        display.setText(display.getText()+"0");}
+        }
 }
