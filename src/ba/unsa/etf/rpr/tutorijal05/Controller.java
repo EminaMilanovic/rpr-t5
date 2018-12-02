@@ -46,6 +46,9 @@ public class Controller {
     public void fja9(ActionEvent actionEvent) {
         display.setText(display.getText()+"9");
     }
+    public void fjadot(ActionEvent actionEvent) {
+        display.setText(display.getText()+".");
+    }
 
     public void fjaplus(ActionEvent actionEvent) {
          x=Float.parseFloat(display.getText());

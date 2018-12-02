@@ -89,7 +89,7 @@
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="5">
+      <Button fx:id="dotBtn" onAction="#fjadot" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="25.0" prefWidth="45.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="5">
          <font>
             <Font size="18.0" />
          </font></Button>
