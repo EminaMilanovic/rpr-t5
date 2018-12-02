@@ -23,6 +23,29 @@ public class Controller {
     public void fja2(ActionEvent actionEvent) {
         display.setText(display.getText()+"2");
     }
+    public void fja3(ActionEvent actionEvent) {
+        display.setText(display.getText()+"3");
+    }
+
+    public void fja8(ActionEvent actionEvent) {
+        display.setText(display.getText()+"8");
+    }
+
+    public void fja7(ActionEvent actionEvent) {
+        display.setText(display.getText()+"7");
+    }
+    public void fja6(ActionEvent actionEvent) {
+        display.setText(display.getText()+"6");
+    }
+    public void fja5(ActionEvent actionEvent) {
+        display.setText(display.getText()+"5");
+    }
+    public void fja4(ActionEvent actionEvent) {
+        display.setText(display.getText()+"4");
+    }
+    public void fja9(ActionEvent actionEvent) {
+        display.setText(display.getText()+"9");
+    }
 
     public void fjaplus(ActionEvent actionEvent) {
          x=Float.parseFloat(display.getText());
